@@ -49,7 +49,6 @@ button{
     color: white;
 }
 
-<<<<<<< HEAD
 .focim{
     color: white;
     background-image: url("../kepek/banner.jpg");
@@ -66,20 +65,5 @@ button{
     width: 250px;
     height: 250px;
     background-color: black;
-    left: ;
+    /*left: ;*/
 }
-=======
-.commentBox{
-    max-width: 200px!important;
-}
-
-.kname{
-    margin: 20px;
-    padding: 2px 7px;
-    background-color: #21C921;
-}
-
-.kszoveg{
-    color:black!important;
-}
->>>>>>> ee52609d041189bb059147bf27ac3c9772524e37
