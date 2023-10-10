@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky - Reggeli ráhangolódás</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand logo" href="../index.html">Lucky
+            <img src="../img/clover.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="../index.html">Főoldal </a>
+            <a class="nav-link" href="../kavefajtak.html">Kávéfajták</a>
+            <a class="nav-link" href="../sutik.html">Sütemények </a>
+            <a class="nav-link active" href="../blog.html">Blog<span class="sr-only">(ön itt áll)</span></a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="#">Bejelentkezés</a>
+            <a class="nav-link" href="#">Regisztráció</a>
+          </div>
+        </div>
+      </nav>
+
+    <div class="banner"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <article>
+              <div class="row mt-5">
+                <div class="col-sm-4 offset-sm-1">
+                  <img src="../img/blog/reggel.png" alt="" class="img-fluid blog-img">
+                </div>
+                <div class="col-sm-7 align-self-center">
+                  <h1>Lucky - Reggeli ráhangolódás</h1>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-12">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel unde, quidem quod doloremque cupiditate eius. Eligendi molestias sequi placeat magnam repellendus consequuntur eveniet tempora autem fuga, a molestiae tempore quisquam!</p>
+                  <p>Aspernatur incidunt eum libero repellat, reiciendis vitae quas est ea eveniet impedit nemo pariatur itaque maxime accusantium aliquid doloremque hic quasi ab vel facilis esse at iusto! Voluptate, eum consequuntur?</p>
+                  <p>Hic tenetur ea nobis necessitatibus quisquam accusantium, libero debitis, eaque perspiciatis ratione amet tempore. Alias, enim numquam. Nulla itaque architecto, nemo non reiciendis odit enim ipsum cupiditate dicta reprehenderit iusto.</p>
+                  <p>Ducimus consequatur ipsum quas perferendis eum modi cumque! At officia nihil praesentium, excepturi autem veniam enim iusto aut itaque vitae harum aperiam voluptates architecto incidunt in quos, sint ab beatae.</p>
+                  <p>Amet, reiciendis itaque quos explicabo ex fuga? Voluptate reprehenderit inventore praesentium ea pariatur voluptatum laudantium aut sunt nam facilis, beatae ipsum. Earum mollitia quis modi aliquam minus porro. Similique, esse.</p>
+                  <p class="szerzo">Szerző: Luky</p>
+                </div>
+              </div>
+            </article>
+    
+            
+              <div class="row">
+                <div class="col-12">
+                  <h2>Hozzászólások</h2>
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-11 offset-1">
+                  <p>
+                    <span class="badge badge-success">Anna</span>
+                    Mennyire igaz, amit írtál :)
+                  </p>
+                </div>
+              </div>
+         
+          </div>
+          <div class="col-md-4">
+            <aside class="box mt-5">
+              <h2>Év szerint</h2>
+                <ul>
+                  <li>2020</li>
+                  <li>2021</li>
+                </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+    
+        
+        
+
+
+    </div>    
+
+
+
+
+    <div class="footer">
+    <footer class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 offset-lg-1">
+                <h2>Kapcsolat</h2>
+                <ul>
+                    <li><img src="./img/letter.svg" alt="">Lucky Kávézó</li>
+                    <li><img src="./img/email.svg" alt="">lucky@kavezo.hu</li>
+                    <li><img src="./img/telephone.svg" alt="">+36-1-555-55-55</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <h2>Kávé Magazin</h2>
+                <p>Iratkozzon fel a kávémagazinunkra!</p>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2" id="email">
+                        <div class="input-group-append">
+                          <button class="btn btn-success" type="button" id="button-addon2" onclick="feliratkozas();">Feliratkozom</button>
+                        </div>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script>
+    function feliratkozas(){
+        let email = document.getElementById('email').value;
+        if(email == ""){
+            alert("Kérem töltse ki a beviteli mezőt!");
+        }else{
+            alert("Sikeresen feliratkozott! Köszönjük szépen!");
+        }
+    }
+</script>
+</body>
+</html>
