@@ -48,3 +48,17 @@ button{
     border: #21C921;
     color: white;
 }
+
+.commentBox{
+    max-width: 200px!important;
+}
+
+.kname{
+    margin: 20px;
+    padding: 2px 7px;
+    background-color: #21C921;
+}
+
+.kszoveg{
+    color:black!important;
+}
