@@ -37,15 +37,21 @@
         </nav>
     </header>
     <main>
-        <header>
-            <div class="focim">
-                <div class="lap"></div>
-                    <h1>Lucky - A mi kis kávézónk</h1>
-                    <p>Sok szeretettel köszöntünk a honlapon!</p>
-                    <p>Ismerkedj meg kávé és sütemény kínálatunkkal</p>
-                
+        <div id="hozzaszolasok">
+            <h4>Hozzászólások</h4>
+            <div id="comments"></div>
+            <div class="row">
+                <div class="row">
+                    <input id="nev" class="commentBox" type="text" placeholder="Név">
+                </div>
+                <div class="row">
+                    <input id="komment" class="commentBox" type="text" placeholder="Hozzászólás">
+                </div>
+                <div class="row">
+                    <button class="commentBox" onclick="addKomment()">Hozzászólás hozzáadása</button>
+                </div>
             </div>
-        </header>
+        </div>
     </main>
     <footer>
         <div class="row">
@@ -63,7 +69,7 @@
                 </a>
                 <br>
                 <a class="elerhetoseg">
-                    <img class="icon" src="../kepek/ikonok/teleflflef-removebg-preview.png" alt="telefon">
+                    <img class="icon" src="../kepek/ikonok/telefonka.jpg" alt="telefon">
                     +36-1-555-55-55
                 </a>
             </div>
