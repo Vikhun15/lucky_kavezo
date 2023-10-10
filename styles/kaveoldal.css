@@ -1,0 +1,56 @@
+#lohere{
+    max-width: 40px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+
+header{
+    background-color: #1f5b25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    color: white!important;
+    text-decoration: none!important;
+    vertical-align: middle;
+}
+
+footer{
+    background-color: #1f5b25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon{
+    max-width: 20px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+
+h3{
+    color: white!important;
+}
+
+p{
+    color: white!important;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    margin: 0;
+    padding: 5;
+    background-color: #21C921;
+    border: #21C921;
+    color: white;
+}
+.banner{
+    background-image: url(../kepek/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
