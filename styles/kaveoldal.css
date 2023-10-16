@@ -7,7 +7,7 @@
 header{
     background-color: #1f5b25;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 a{
@@ -52,7 +52,7 @@ button{
     background-image: url(../kepek/banner.jpg);
     background-position: center center;
     background-size: cover;
-    height: 400px;
+    height: 275px;
 }
 #container{
     width: 100%;
@@ -67,6 +67,7 @@ button{
     width: auto;
     height: 300px;
     margin: 20px;
+    border-radius: 5%;
 }
 body{
     background-image: url(../kepek/homebg.jpg);
@@ -74,4 +75,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+h2{
+    color: green;
+    text-align: center;
+    font-size: large;
 }
