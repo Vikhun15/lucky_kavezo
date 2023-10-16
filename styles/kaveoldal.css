@@ -54,3 +54,24 @@ button{
     background-size: cover;
     height: 400px;
 }
+#container{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.picContainer{
+    position: relative;
+    display: inline-block;
+}
+.kep{
+    width: auto;
+    height: 300px;
+    margin: 20px;
+}
+body{
+    background-image: url(../kepek/homebg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
