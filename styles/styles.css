@@ -80,3 +80,37 @@ button{
     background-position: center;
 }
 
+
+main{
+    background-color: #FBEFDB;
+}
+
+.kep{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+.kepnagy{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-position: center;
+}
+
+.art1{
+    background-image: url("../kepek/kávék/coffee-4618705_1280.jpg");
+}
+.art2{
+    background-image: url("../kepek/sütik/cakes-3257019_1280.jpg");
+}
+
+.tagN{
+    text-align: left;
+}
+
+.tagV{
+    text-align: right;
+    min-width: 200px;
+}
+
