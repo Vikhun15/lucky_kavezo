@@ -67,3 +67,12 @@ button{
     background-color: black;
     /*left: ;*/
 }
+
+#banner{
+    min-height: 500px;
+    background-image: url("../kepek/blog/coffee-1324126_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

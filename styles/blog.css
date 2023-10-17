@@ -1,0 +1,25 @@
+#banner{
+    min-height: 500px;
+    background-image: url("../kepek/blog/coffee-1324126_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    background-color: #FBEFDB;
+}
+
+.kep{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+#art1{
+    background-image: url("../kepek/kávék/coffee-4618705_1280.jpg");
+}
+#art2{
+    background-image: url("../kepek/sütik/cakes-3257019_1280.jpg");
+}
+
