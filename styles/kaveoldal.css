@@ -68,12 +68,8 @@ button{
     width: auto;
     height: 300px;
 }
-body{
-    background-image: url(../kepek/homebg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+main{
+    background-color: #FBEFDB;
 }
 .card-body{
 
