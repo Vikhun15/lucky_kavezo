@@ -131,4 +131,32 @@ main{
     text-align: right;
     min-width: 200px;
 }
+.banner{
+    background-image: url(../kepek/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 275px;
+}
+#container{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    position: absolute;
+    height: 300px;
+    width: 360px;
+}
+.kave{
+    width: auto;
+    height: 300px;
+}
+main{
+    background-color: #FBEFDB;
+}
+h1{
+    color: green!important;
+    text-align: center;
+    font-size: large;
+}
 
