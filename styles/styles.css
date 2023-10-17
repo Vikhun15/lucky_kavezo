@@ -49,15 +49,19 @@ button{
     color: white;
 }
 
-.focim{
+.bevezetes{
+    height: 100vh;
     color: white;
     background-image: url("../kepek/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 500px;
     background-position: center;
+    background-attachment: fixed;
 }
-.focim h1{
+.bevezetes .col-md-8{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.bevezetes h1{
     padding-top: 20px;
     padding-bottom: 20px;
 }
