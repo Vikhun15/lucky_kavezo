@@ -59,15 +59,14 @@ button{
     text-align: center;
     margin-top: 50px;
 }
-.picContainer{
-    position: relative;
-    display: inline-block;
+.card{
+    position: absolute;
+    height: 300px;
+    width: 360px;
 }
 .kep{
     width: auto;
     height: 300px;
-    margin: 20px;
-    border-radius: 5%;
 }
 body{
     background-image: url(../kepek/homebg.jpg);
@@ -76,8 +75,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-h2{
-    color: green;
+.card-body{
+
+}
+h1{
+    color: green!important;
     text-align: center;
     font-size: large;
 }
