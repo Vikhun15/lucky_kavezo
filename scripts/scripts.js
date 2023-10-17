@@ -1,4 +1,4 @@
-function feliratkozom(){
+function feliratkozom() {
     let pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/
     if (pattern.test(email.value.toString())){
         window.alert("Sikeresen feliratkozott a kávémagazinunkra!")
@@ -10,7 +10,7 @@ function feliratkozom(){
 
 const komments =  document.getElementById("comments")
 
-function addKomment(){
+function addKomment() {
     let nev = document.getElementById("nev")
     let text = document.getElementById("komment")
 

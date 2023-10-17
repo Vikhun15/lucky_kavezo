@@ -44,10 +44,18 @@ input{
 
 button{
     margin: 0;
-    padding: 5;
+    padding: 5px;
     background-color: #21C921;
     border: #21C921;
     color: white;
+}
+
+.btn{
+    margin: 0!important;
+    padding: 5px!important;
+    background-color: #21C921!important;
+    border: #21C921!important;
+    color: white!important;
 }
 
 .kname{
