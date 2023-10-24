@@ -107,7 +107,7 @@ button{
 }
 
 
-main , .modal-body{
+main, .modal-body{
     background-color: #FBEFDB;
 }
 
@@ -173,4 +173,3 @@ h1{
     right: 1px;
     top: 10px;
 }
-
