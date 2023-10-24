@@ -107,7 +107,7 @@ button{
 }
 
 
-main{
+main , .modal-body{
     background-color: #FBEFDB;
 }
 
@@ -159,12 +159,18 @@ main{
     width: auto;
     height: 300px;
 }
-main{
-    background-color: #FBEFDB;
-}
 h1{
     color: green!important;
     text-align: center;
     font-size: large;
+}
+.modal-content{
+    background-color: #eadac0;
+}
+#napiajanlat{
+    width: 80px;
+    position: absolute;
+    right: 1px;
+    top: 10px;
 }
 
