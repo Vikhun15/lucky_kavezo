@@ -9,7 +9,6 @@
 header{
     background-color: #1f5b25;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 a{
@@ -184,6 +183,9 @@ h1{
 }
 
 
+
+
+
 <<<<<<< HEAD
 =======
 
@@ -253,7 +255,7 @@ a:hover {
 
 .footer{
     background-color: #1f5b25;
-    color: white
+    color: white;
 }
 
 footer li{

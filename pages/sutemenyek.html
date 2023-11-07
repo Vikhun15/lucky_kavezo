@@ -11,23 +11,32 @@
 
 <body>
     <div style="background-color:#FBEFDB">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand logo" href="index.html">Lucky
-            <img src="../kepek/lohere.jpg">
-        </a>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-
-            <a class="nav-link" href="fooldal.html">Főoldal</a>
-            <a class="nav-link" href="kavefajtak.html">Kávéfajták</a>
-            <a class="nav-link active" href="sutemenyek.html">Sütemények</a>
-            <a class="nav-link" href="blog.html">Blog</a>
-
-          </div>
-          
-        </div>
-      </nav>
+        <nav class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-2">
+                            <a href="index.html">Lucky
+                                <img id="lohere" src="../kepek/ikonok/lohere.jpg" alt="Lóhere">
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="fooldal.html">Főoldal</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="kavefajtak.html">Kávéfajták</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="sutemenyek.html">Sütemények</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="blog.html">Blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </nav>
     <div class="banner">
 
     </div>
@@ -41,11 +50,11 @@
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
 
-                <a href="#tiramisu">
-                    <img src="../kepek/napragec.jpg" id="napiajanlat" title="Napi ajánlat">
+                <a href="#tiramisu" data-toggle="modal" data-target="#tiramisu">
+                    
 
                     <div class="card">
-
+                        <img src="../kepek/ikonok/napragec-removebg-preview.png" id="napiajanlat" title="Napi ajánlat">
                         <img src="../kepek/sutemenyek/tiramisu.png" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Tiramisu</h5>
@@ -123,10 +132,10 @@
                             </div>
                             <div class="col-sm-8">
                                 <h2>Tiramisu</h2>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officiis! Itaque
+                                <p class="black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officiis! Itaque
                                     minus, dolorum totam ut explicabo odit est, excepturi commodi iure nesciunt
                                     accusamus consequatur. Repudiandae delectus sequi molestias quos inventore!</p>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet perferendis eius
+                                <p class="black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet perferendis eius
                                     mollitia distinctio saepe. Veritatis, nihil libero laudantium consequuntur
                                     architecto reprehenderit quisquam voluptates, sunt reiciendis, itaque quasi beatae
                                     rem magni!</p>
@@ -142,36 +151,44 @@
     </div>
 
 
-    <div class="footer">
-    <footer class="container">
+    <footer>
         <div class="row">
-            <div class="col-sm-6 col-lg-4">
-
-                <h2>Kapcsolat</h2>
-
-                <ul>
-                    <li><img src="../kepek//emailke.jpg" class="img2">Lucky Kávézó</li>
-                    <li><img src="../kepek/kukacka.jpg" class="img2">lucky@kavezo.hu</li>
-                    <li><img src="../kepek/teleflflef.jpg" class="img2">+36-1-555-55-55</li>
-                </ul>
-
+            <div class="col">
+                <h3>Kapcsolat</h3>
+                <br>
+                <a class="elerhetoseg">
+                    <img class="icon" src="../kepek/ikonok/emailke.jpg" alt="levél">
+                    Lucky kávézó
+                </a>
+                <br>
+                <a class="elerhetoseg">
+                    <img class="icon" src="../kepek/ikonok/kukacka.jpg" alt="email">
+                    lucky@kavezo.hu
+                </a>
+                <br>
+                <a class="elerhetoseg">
+                    <img class="icon" src="../kepek/ikonok/teleflflef-removebg-preview.png" alt="telefon">
+                    +36-1-555-55-55
+                </a>
             </div>
-            <div class="col-sm-6 col-lg-4">
-
-                <h2>Kávé Magazin</h2>
-
-                <p>Iratkozzon fel a kávémagazinunkra!</p>
-                <form>
-                    <div class="input-group mb-3">
-
-                        <input type="text" class="form-control" placeholder="E-mail" id="email">
-
-                        <div class="input-group-append">
-                          <button class="btn btn-success" type="button" onclick="feliratkozas()">Feliratkozom</button>
-
+            <div class="col">
+                <h3>Kávé magazin</h3>
+                <p>Iratkozz fel a kávémagazinunkra</p>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col">
+                                <input id="email" type="text">
+                            </div>
+                            <div class="col">
+                                <button onclick="feliratkozom()">Feliratkozom</button>
+                            </div>
                         </div>
-                      </div>
-                </form>
+                    </div>
+                    <div class="col-6">
+
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
