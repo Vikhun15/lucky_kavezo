@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Kávézó - Blog</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-2">
+                            <a href="../index.html">Lucky
+                                <img id="lohere" src="../../kepek/ikonok/lohere.jpg" alt="Lóhere">
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="../fooldal.html">Főoldal</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="../kavefajtak.html">Kávéfajták</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="../sutemenyek.html">Sütemények</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="../blog.html">Blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="banner"></div>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-2 posztcim">
+                    <h2>Cím 1</h2>
+                    <h5>Alcím 1</h5>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-5 kepnagy art1">
+
+                </div>
+                <div class="col-2">
+                    <table>
+                        <tr><th class="tagN">Szerző: </th><td class="tagV">Gipsz Jakab</td></tr>
+                        <tr><th class="tagN">Dátum: </th><td class="tagV">2023.10.19.</td></tr>
+                        <tr><th class="tagN">Tagek: </th><td class="tagV">Kávé</td></tr>
+                        <tr><th class="tagN"></th><td class="tagV">Hagyomány</td></tr>
+                        <tr><th class="tagN"></th><td class="tagV">Hétvége</td></tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 pt-4">
+                    <span>
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis commodo felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus rutrum enim elit, nec finibus tortor dapibus malesuada. Phasellus sed dui augue. Pellentesque consequat nulla ornare ornare tincidunt. Mauris ut nunc lectus. Ut dictum sem et elit semper, scelerisque feugiat tellus condimentum. Ut dignissim velit ut dui commodo pharetra. Nunc non ligula egestas enim viverra dapibus. Cras et tempor nisl. Phasellus lacinia nulla libero, at auctor augue elementum vel. Fusce eget augue sit amet quam facilisis ornare. Aliquam ornare hendrerit bibendum. Aenean eu mauris vel sem tempor egestas nec et dui. Etiam vitae libero nisi.
+                        <br>
+                        <br>
+                        Proin sagittis justo est, imperdiet commodo diam consectetur ac. Cras blandit ut metus et dictum. Vivamus ut consectetur quam, a tristique neque. Donec in sem dolor. Aenean venenatis non ipsum at tristique. Fusce ac lacus vitae ligula sollicitudin suscipit id non ante. Vestibulum vel sem dui. Morbi convallis pellentesque volutpat.
+                        <br>
+                        <br>
+                        Vestibulum vel tempor velit. Vivamus vehicula rutrum lacus pharetra hendrerit. Quisque porta arcu mauris, vel pellentesque augue pharetra id. Nam finibus laoreet est, eget accumsan est egestas in. Proin egestas nulla eget accumsan elementum. Curabitur nec sollicitudin tellus. Vestibulum dignissim felis ut accumsan vehicula. Fusce erat lacus, volutpat a molestie lacinia, pellentesque commodo leo. In ante ante, rhoncus at tempor rhoncus, dictum id erat. Pellentesque sodales tellus ut turpis malesuada, non fringilla augue faucibus. Quisque rhoncus commodo eros nec commodo. Duis efficitur scelerisque tempor. </span>
+                </div>
+                <div class="col-2">
+
+                </div>
+            </div>
+        </div>
+        <div class="container" id="hozzaszolasok">
+            <h4 id="commentcim">Hozzászólások</h4>
+            <div id="comments"></div>
+            <div class="row p-4">
+                <div class="row pb-3">
+                    <div class="col-3">
+                        <input id="nev" class="commentBox p-1" type="text" placeholder="Név">
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-3">
+                        <input id="komment" class="commentBox p-1" type="text" placeholder="Hozzászólás">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                       <button class="commentBox p-1" onclick="addKomment()">Hozzászólás hozzáadása</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h3>Kapcsolat</h3>
+                <br>
+                <a class="elerhetoseg">
+                    <img class="icon" src="../../kepek/ikonok/emailke.jpg" alt="levél">
+                    Lucky kávézó
+                </a>
+                <br>
+                <a class="elerhetoseg">
+                    <img class="icon" src="../../kepek/ikonok/kukacka.jpg" alt="email">
+                    lucky@kavezo.hu
+                </a>
+                <br>
+                <a class="elerhetoseg">
+                    <img class="icon" src="../../kepek/ikonok/teleflflef-removebg-preview.png" alt="telefon">
+                    +36-1-555-55-55
+                </a>
+            </div>
+            <div class="col">
+                <h3>Kávé magazin</h3>
+                <p>Iratkozz fel a kávémagazinunkra</p>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col">
+                                <input id="email" type="text">
+                            </div>
+                            <div class="col">
+                                <button onclick="feliratkozom()">Feliratkozom</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../../scripts/scripts.js"></script>
+    </footer>
+</body>
+</html>
