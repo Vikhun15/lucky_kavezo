@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400;500;600&display=swap');
 
+
+body{
+    overflow-x: hidden;
+}
+
 #lohere{
     max-width: 40px;
     aspect-ratio: 1/1;
