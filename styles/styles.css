@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400;500;600&display=swap');
 
+
+body{
+    overflow-x: hidden;
+}
+
 #lohere{
     max-width: 40px;
     aspect-ratio: 1/1;
@@ -183,8 +188,11 @@ h1{
 }
 
 
-
-
+<<<<<<< HEAD
+=======
+.fixed-nav-bar 
+{ position: fixed; top: 0; left: 0; z-index: 9999;
+}
 
 <<<<<<< HEAD
 =======
@@ -192,6 +200,7 @@ h1{
 
 
 >>>>>>> cf84b75d7bcc00c6ed87968e283a2b10ad47f72d
+>>>>>>> 5fb4dd5d9e46219649e7cb508c2ccf4a804fe743
 #home{
     height: 100vh;
     background-image: url(../kepek/homebg.jpg);
