@@ -186,21 +186,6 @@ h1{
     right: 1px;
     top: 10px;
 }
-
-
-<<<<<<< HEAD
-=======
-.fixed-nav-bar 
-{ position: fixed; top: 0; left: 0; z-index: 9999;
-}
-
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> cf84b75d7bcc00c6ed87968e283a2b10ad47f72d
->>>>>>> 5fb4dd5d9e46219649e7cb508c2ccf4a804fe743
 #home{
     height: 100vh;
     background-image: url(kepek/homebg.jpg);
