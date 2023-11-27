@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+
+#lohere{
+    max-width: 40px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+
+header{
+    background-color: #1f5b25;
+    padding-top: 10px;
+}
+
+a{
+    color: white!important;
+    text-decoration: none!important;
+    vertical-align: middle;
+    font-size: larger;
+}
+
+footer{
+    background-color: #1f5b25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon{
+    max-width: 20px;
+    aspect-ratio: 1/1;
+    display: inline-block;
+}
+.column{
+    flex-direction: column;
+}
+
+h3{
+    color: white!important;
+}
+
+p{
+    color: white!important;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    margin: 0;
+    padding: 5px;
+    background-color: #21C921;
+    border: #21C921;
+    color: white;
+}
+
+.btn{
+    margin: 0!important;
+    padding: 5px!important;
+    background-color: #21C921!important;
+    border: #21C921!important;
+    color: white!important;
+}
+
+.black{
+    color: black!important;
+}
+
+.kname{
+    background-color: #21C921;
+    border: #21C921;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.kszoveg{
+    color:black!important;
+    padding: 5px;
+}
+
+#commentcim{
+    text-decoration: underline;
+}
+
+.bevezetes{
+    height: 100vh;
+    color: white;
+    background-image: url("kepek/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bevezetes .col-md-8{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.bevezetes h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.lap{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    /*left: ;*/
+}
+
+#banner{
+    min-height: 500px;
+    background-image: url("kepek/blog/coffee-1324126_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+main, .modal-body{
+    background-color: #FBEFDB;
+}
+
+.kep{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+.kepnagy{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-position: center;
+}
+
+.art1{
+    background-image: url("kepek/kávék/coffee-4618705_1280.jpg");
+}
+.art2{
+    background-image: url("kepek/sütik/cakes-3257019_1280.jpg");
+}
+
+.tagN{
+    text-align: left;
+}
+
+.tagV{
+    text-align: right;
+    min-width: 200px;
+}
+.banner{
+    background-image: url(kepek/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 275px;
+}
+#container{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    position: absolute;
+    height: 300px;
+    width: 360px;
+}
+.kave{
+    width: auto;
+    height: 300px;
+}
+h1{
+    color: green!important;
+    text-align: center;
+    font-size: large;
+}
+.modal-content{
+    background-color: #eadac0;
+}
+#napiajanlat{
+    width: 80px;
+    position: absolute;
+    right: 1px;
+    top: 10px;
+}
+#home{
+    height: 100vh;
+    background-image: url(kepek/homebg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .bev{   
+    color: white;
+    height: 100vh;      
+}
+
+#home .bev .col-md-8{
+    background-color: rgba(0,0,0,0.4);    
+}
+
+nav{
+    background-color:  #1f5b25;
+}
+
+.logo img{
+    width: 40px;
+}
+
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1:not(#home h1){    
+    color: #1f5b25;    
+}
+
+.kave {
+    color: #1f5b25;
+    border: 1px solid #1f5b25;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+
+
+.card:hover {
+    box-shadow: 0px 0px 5px #1f5b25;
+}
+
+h5{
+    text-align: center;
+    font-variant: small-caps;
+    color: #1f5c25;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #1f5b25;
+    color: white;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+.img2{
+    width: 15px;
+    margin-right: 10px;
+}
+
+#napiajanlat{
+    position: absolute;
+    width: 40px;
+    right: 40px;
+    top: 20px;
+    z-index:5;
+}
+
+.blog-img {
+    border: 1px solid #1F5C25;
+    border-radius: 4px;
+}
+
+.szerzo {
+    text-align: right;
+}
+
+.box {
+    border: 1px solid #1F5C25;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    background-color: #1f5b25;
+    color: #fff;
+    padding: 0.5rem;
+}
